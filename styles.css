@@ -1,24 +1,140 @@
-* {
-    background-color: #f4f4f4;
+body {
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+  margin: 0;
+  text-align: center;
+  background-color: #f7f7f7;
+  color: #3f3f44;
+  line-height: 2;
 }
 
 hr {
-    border-style: none;
-    border-top-style: dotted;
-    width: 5%;
-    border-color: #f7d1ba;
-    border-width: 5px;
+  border-style: none;
+  border-top-style: dotted;
+  width: 5%;
+  border-color: #cceabb;
+  border-width: 5px;
+  margin: 100px auto;
 }
 
-h1, h2 {
-    color: #557571;
+h1 {
+  color: #fdcb9e;
+  font-family: "Amatic SC", cursive;
+  font-size: 5em;
+  line-height: 2;
 }
 
-img {
-    height: 150px;
+h2 {
+  color: #cceabb;
+  font-family: "Fenix", serif;
+  font-size: 1.5em;
 }
 
-footer {
-    height: 100px;
-    background-color: #d49a89;
+h3 {
+  color: #fdcb9e;
+  font-family: "Fenix", serif;
+  font-size: 1.5em;
+}
+
+.top-container {
+  position: relative;
+  padding: 130px;
+  background-color: #f1f3de;
+}
+
+.cloud {
+  position: absolute;
+  right: 250px;
+  top: 150px;
+  height: 80px;
+}
+
+.waterfall {
+  visibility: hidden;
+}
+
+.sun {
+  position: absolute;
+  left: 250px;
+  top: 50px;
+  height: 100px;
+}
+
+.intro {
+    width: 30%;
+    margin: auto;
+}
+
+.middle-container {
+    padding: 30px;
+}
+
+.profile-picture {
+  height: 200px;
+  border-radius: 100%;
+}
+
+.skill-row {
+  width: 50%;
+  margin: auto;
+  text-align: left;
+}
+
+.icons {
+  height: 100px;
+  float: left;
+  margin-right: 30px;
+}
+
+.contact-message {
+    width: 30%;
+    margin: auto;
+}
+
+.bottom-container {
+  background-color: #fdcb9e;
+  padding: 15px;
+}
+
+.footer-link {
+ color: #3f3f44;
+ margin: 10px 20px;
+ text-decoration: none;
+}
+
+.footer-link:hover {
+    color: #cceabb;
+}
+
+a {
+    color: #3f3f44;
+    text-decoration: none;
+}
+
+.small-text {
+    font-size: 0.7em;
+}
+
+.BUTTON_NEV {
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  border-radius: 20px;
+  color: #3f3f44;
+  font-size: 1.5em;
+  font-weight: 100;
+  padding: 3px 10px;
+  margin: 20px;
+  background-color: #cceabb;
+  text-decoration: none;
+  display: inline-block;
+  cursor: pointer;
+  text-align: center;
+}
+
+.BUTTON_NEV:hover {
+  background: #fdcb9e;
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  border-radius: 20px;
+  text-decoration: none;
 }
